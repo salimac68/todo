@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(21, 90, 146);
+    animation: text 3s 1;
+    letter-spacing: 8px;
+  }
+  @keyframes text{
+    0%{
+        color: rgb(48, 177, 228);
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 30px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+  }
+ body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url(image.jpg);
+     background-size: cover; 
+   
+}
+/* .box{
+    width:300px;
+    box-shadow: rgb(15, 15, 15);
+    background: rgb(219, 234, 235);
+    padding:2px;
+    margin: 8% auto 0;
+   box-sizing: border-box;
+   box-shadow: cyan;
+   border-radius: 10px;
+    text-align: center;
+} */ 
